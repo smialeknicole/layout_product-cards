@@ -1,0 +1,16 @@
+@use '../utils/variables' as *;
+
+@font-face {
+  font-family: MyFont;
+  src: url('.././fonts/Roboto-2/static/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  color: $color-primary;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url('.././fonts/Roboto-2/static/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
