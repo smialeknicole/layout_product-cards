@@ -18,17 +18,15 @@
   flex-direction: column;
   width: 200px;
   height: 408px;
+  box-sizing: border-box;
 }
 
 .card__image {
-  background-image: url(../images/imac.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 160px;
   height: 134px;
   margin-top: 33px;
-  margin-left: 17px;
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 45px;
 }
 
 .card__headline {
@@ -39,9 +37,9 @@
   line-height: 18px;
   justify-content: justify;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 22px;
   margin-left: 17px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 .card__code {
@@ -76,6 +74,12 @@
   margin-left: 17px;
 }
 
+.card__button:hover {
+  background-color: #fff;
+  color: #00acdc;
+  border: 1px solid #00acdc;
+}
+
 .card .price-label {
   font-size: 12px;
   margin-top: 5px;
@@ -88,12 +92,6 @@
   text-align: right;
   color: #060b35;
   margin-right: 17px;
-}
-
-.button:hover {
-  background-color: #fff;
-  color: #00acdc;
-  border: 1px solid #00acdc;
 }
 
 .stars {
