@@ -1,6 +1,10 @@
 @use '../utils/variables' as *;
 @use '../utils/fonts';
 
+* {
+  box-sizing: border-box;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -12,8 +16,14 @@
     width: 160px;
     height: 134px;
     margin-top: 33px;
-    margin-left: 10px;
-    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
   }
 
   &__headline {
@@ -24,7 +34,7 @@
     line-height: 18px;
     justify-content: justify;
     text-align: left;
-    margin-top: 22px;
+    margin-top: 25px;
     margin-left: 17px;
     margin-bottom: 5px;
   }
@@ -79,5 +89,6 @@
     text-align: right;
     color: $color-primary;
     margin-right: 17px;
+    margin-top: 5px;
   }
 }
