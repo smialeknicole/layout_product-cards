@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
+  src: url('.././fonts/Roboto-2/static/Roboto-Medium.ttf') format('truetype');
   font-style: normal;
   color: $color-primary;
 }
 
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
+  src: url('.././fonts/Roboto-2/static/Roboto-Regular.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
+  src: url('.././fonts/Roboto-2/static/Roboto-Bold.ttf') format('truetype');
   font-style: normal;
 }

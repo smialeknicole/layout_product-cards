@@ -1,22 +1,21 @@
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
+  src: url(".././fonts/Roboto-2/static/Roboto-Medium.ttf") format("truetype");
   font-style: normal;
   color: #060b35;
 }
-
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
+  src: url(".././fonts/Roboto-2/static/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: MyFont;
-  src: url('.././fonts/Roboto-2/static/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
+  src: url(".././fonts/Roboto-2/static/Roboto-Bold.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -29,8 +28,8 @@
   flex-direction: column;
   width: 200px;
   border: 1px solid rgba(97, 96, 112, 0.1);
-  border-radius: 5px;
   padding: 32px 16px 16px;
+  border-radius: 5px;
 }
 
 .card__image {
@@ -49,21 +48,22 @@
   color: #060b35;
   font-weight: 500;
   line-height: 18px;
+  margin-bottom: 4px;
 }
 
 .card__code {
   font-size: 10px;
-  color: #616070;
   font-weight: 400;
+  color: #616070;
   line-height: 14px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .card__reviews-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .card__reviews {
@@ -71,7 +71,7 @@
   font-weight: 400;
   text-align: right;
   line-height: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   margin-left: 16px;
 }
 
@@ -120,17 +120,13 @@
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url('../images/star.svg');
+  background-image: url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.stars--1 .stars__star:nth-child(-n + 1),
-.stars--2 .stars__star:nth-child(-n + 2),
-.stars--3 .stars__star:nth-child(-n + 3),
-.stars--4 .stars__star:nth-child(-n + 4),
-.stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('../images/star-active.svg');
+.stars--1 .stars__star:nth-child(-n+1), .stars--2 .stars__star:nth-child(-n+2), .stars--3 .stars__star:nth-child(-n+3), .stars--4 .stars__star:nth-child(-n+4), .stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url("../images/star-active.svg");
   background-position: center;
 }
 
