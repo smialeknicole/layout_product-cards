@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: MyFont;
-  src: url('..././fonts/Roboto-2/static/Roboto-Bold.ttf') format 'truetype';
+  src: url('.././fonts/Roboto-2/static/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
